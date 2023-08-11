@@ -1,0 +1,17 @@
+C:\Users\sukri\source\repos\NoteApplicationByCodingThinker\NoteApplicationByCodingThinker\obj\Debug\net6.0-windows\NoteApplicationByCodingThinker.csproj.AssemblyReference.cache
+C:\Users\sukri\source\repos\NoteApplicationByCodingThinker\NoteApplicationByCodingThinker\obj\Debug\net6.0-windows\NoteApplicationByCodingThinker.Form1.resources
+C:\Users\sukri\source\repos\NoteApplicationByCodingThinker\NoteApplicationByCodingThinker\obj\Debug\net6.0-windows\NoteApplicationByCodingThinker.csproj.GenerateResource.cache
+C:\Users\sukri\source\repos\NoteApplicationByCodingThinker\NoteApplicationByCodingThinker\obj\Debug\net6.0-windows\NoteApplicationByCodingThinker.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sukri\source\repos\NoteApplicationByCodingThinker\NoteApplicationByCodingThinker\obj\Debug\net6.0-windows\NoteApplicationByCodingThinker.AssemblyInfoInputs.cache
+C:\Users\sukri\source\repos\NoteApplicationByCodingThinker\NoteApplicationByCodingThinker\obj\Debug\net6.0-windows\NoteApplicationByCodingThinker.AssemblyInfo.cs
+C:\Users\sukri\source\repos\NoteApplicationByCodingThinker\NoteApplicationByCodingThinker\obj\Debug\net6.0-windows\NoteApplicationByCodingThinker.csproj.CoreCompileInputs.cache
+C:\Users\sukri\source\repos\NoteApplicationByCodingThinker\NoteApplicationByCodingThinker\bin\Debug\net6.0-windows\NoteApplicationByCodingThinker.exe
+C:\Users\sukri\source\repos\NoteApplicationByCodingThinker\NoteApplicationByCodingThinker\bin\Debug\net6.0-windows\NoteApplicationByCodingThinker.deps.json
+C:\Users\sukri\source\repos\NoteApplicationByCodingThinker\NoteApplicationByCodingThinker\bin\Debug\net6.0-windows\NoteApplicationByCodingThinker.runtimeconfig.json
+C:\Users\sukri\source\repos\NoteApplicationByCodingThinker\NoteApplicationByCodingThinker\bin\Debug\net6.0-windows\NoteApplicationByCodingThinker.dll
+C:\Users\sukri\source\repos\NoteApplicationByCodingThinker\NoteApplicationByCodingThinker\bin\Debug\net6.0-windows\NoteApplicationByCodingThinker.pdb
+C:\Users\sukri\source\repos\NoteApplicationByCodingThinker\NoteApplicationByCodingThinker\obj\Debug\net6.0-windows\NoteApplicationByCodingThinker.dll
+C:\Users\sukri\source\repos\NoteApplicationByCodingThinker\NoteApplicationByCodingThinker\obj\Debug\net6.0-windows\refint\NoteApplicationByCodingThinker.dll
+C:\Users\sukri\source\repos\NoteApplicationByCodingThinker\NoteApplicationByCodingThinker\obj\Debug\net6.0-windows\NoteApplicationByCodingThinker.pdb
+C:\Users\sukri\source\repos\NoteApplicationByCodingThinker\NoteApplicationByCodingThinker\obj\Debug\net6.0-windows\NoteApplicationByCodingThinker.genruntimeconfig.cache
+C:\Users\sukri\source\repos\NoteApplicationByCodingThinker\NoteApplicationByCodingThinker\obj\Debug\net6.0-windows\ref\NoteApplicationByCodingThinker.dll
