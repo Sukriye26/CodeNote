@@ -67,7 +67,8 @@ namespace NoteApplicationByCodingThinker
 
                 notes.Rows[previousNotes.CurrentCell.RowIndex].Delete();
 
-            }catch (Exception ex) 
+            }
+            catch (Exception ex)
             {
                 MessageBox.Show("Not a valid note"); // Kullanýcýya nullPointerException göstermeyelim tabi
                 Console.WriteLine(ex.Message);       // ama meraklýsýna hatayý da gösterebiliriz, neden olmasýn?

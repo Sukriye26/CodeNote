@@ -1,4 +1,3 @@
-C:\Users\sukri\source\repos\NoteApplicationByCodingThinker\NoteApplicationByCodingThinker\obj\Debug\net6.0-windows\NoteApplicationByCodingThinker.csproj.AssemblyReference.cache
 C:\Users\sukri\source\repos\NoteApplicationByCodingThinker\NoteApplicationByCodingThinker\obj\Debug\net6.0-windows\NoteApplicationByCodingThinker.Form1.resources
 C:\Users\sukri\source\repos\NoteApplicationByCodingThinker\NoteApplicationByCodingThinker\obj\Debug\net6.0-windows\NoteApplicationByCodingThinker.csproj.GenerateResource.cache
 C:\Users\sukri\source\repos\NoteApplicationByCodingThinker\NoteApplicationByCodingThinker\obj\Debug\net6.0-windows\NoteApplicationByCodingThinker.GeneratedMSBuildEditorConfig.editorconfig

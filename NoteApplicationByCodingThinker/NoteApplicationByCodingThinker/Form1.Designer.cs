@@ -76,6 +76,7 @@
             previousNotes.BackgroundColor = SystemColors.Window;
             previousNotes.BorderStyle = BorderStyle.Fixed3D;
             previousNotes.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            previousNotes.GridColor = Color.PeachPuff;
             previousNotes.Location = new Point(10, 41);
             previousNotes.Name = "previousNotes";
             previousNotes.RowTemplate.Height = 25;
@@ -162,6 +163,7 @@
             Controls.Add(titleTextBox);
             Margin = new Padding(3, 2, 3, 2);
             Name = "Form1";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "DotNote";
             Load += Form1_Load;
             ((System.ComponentModel.ISupportInitialize)previousNotes).EndInit();
