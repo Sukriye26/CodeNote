@@ -9,6 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Security.Cryptography;
 
 namespace DotNoteWithUsers
 {
@@ -40,6 +41,18 @@ namespace DotNoteWithUsers
             fullNameValidation.Text = String.Empty;
             passValidation.Text = String.Empty;
             againPassValidation.Text = String.Empty;
+        }
+
+        private string ChipherPasswordWithSHA256(string password)
+        {
+            string source = password;
+            using (SHA256 sha1Hash = SHA256.Create())
+            {
+                byte[] sourceBytes = Encoding.UTF8.GetBytes(source);
+                byte[] hashBytes = sha1Hash.ComputeHash(sourceBytes);
+                string hash = BitConverter.ToString(hashBytes).Replace("-", String.Empty);
+                return hash;
+            }
         }
 
         private void GiveValidation()
