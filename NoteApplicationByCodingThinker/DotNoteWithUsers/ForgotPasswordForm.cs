@@ -110,7 +110,7 @@ namespace DotNoteWithUsers
             SqlCommand command = new SqlCommand();
             command.Connection = connection;
             command.CommandType = CommandType.Text;
-            command.CommandText = "Uptade Users set Password=@password where Id=@userid";
+            command.CommandText = "Update Users set Password=@password where Id=@userid";
             command.Parameters.AddWithValue("@password", password);
             command.Parameters.AddWithValue("@userid", appuser.Id);
 
