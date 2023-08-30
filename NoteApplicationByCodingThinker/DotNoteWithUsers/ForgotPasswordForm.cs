@@ -110,9 +110,9 @@ namespace DotNoteWithUsers
             SqlCommand command = new SqlCommand();
             command.Connection = connection;
             command.CommandType = CommandType.Text;
-            command.CommandText = "Uptade Users set Password=@password where Id=@id";
+            command.CommandText = "Uptade Users set Password=@password where UserId=@userid";
             command.Parameters.AddWithValue("@password", password);
-            command.Parameters.AddWithValue("@id", appuser.Id);
+            command.Parameters.AddWithValue("@userid", appuser.Id);
 
             connection.Open();
             int affectedRows = command.ExecuteNonQuery();
@@ -164,15 +164,7 @@ namespace DotNoteWithUsers
 
                     if (appuser != null)
                     {
-                        UpdateUserPassword(userNameText.Text, passwordText.Text,fullNameText.Text, appuser);
-                        switch (MessageBox.Show("User saved successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information))
-                        {
-                            case DialogResult.OK:
-                                ClearInputs();
-                                GoToForm1();
-                                break;
-                        }
-
+                        Console.WriteLine("user var ");
                     }
                     else
                     {
