@@ -104,13 +104,13 @@ namespace DotNoteWithUsers
 
         }
 
-        private int UpdateUserPassword(string userName, string password, string fullName, AppUser appuser)
+        private int UpdateUserPassword(string password, AppUser appuser)
         {
             SqlConnection connection = new SqlConnection("server=.\\SQLExpress; database=TutorialDb; integrated security=true;");
             SqlCommand command = new SqlCommand();
             command.Connection = connection;
             command.CommandType = CommandType.Text;
-            command.CommandText = "Uptade Users set Password=@password where UserId=@userid";
+            command.CommandText = "Uptade Users set Password=@password where Id=@userid";
             command.Parameters.AddWithValue("@password", password);
             command.Parameters.AddWithValue("@userid", appuser.Id);
 
@@ -164,7 +164,18 @@ namespace DotNoteWithUsers
 
                     if (appuser != null)
                     {
-                        Console.WriteLine("user var ");
+                        int affectedRows =UpdateUserPassword(passwordText.Text, appuser);
+                        if (affectedRows > 0)
+                        {
+                            switch (MessageBox.Show("User password is updated successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information))
+                            {
+                                case DialogResult.OK:
+                                    ClearInputs();
+                                    GoToForm1();
+                                    break;
+                            }
+
+                        }
                     }
                     else
                     {
